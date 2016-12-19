@@ -1,11 +1,10 @@
-package io.crowdcode.spring.scrumr.io.crowdcode.spring.scurmr.config;
+package io.crowdcode.spring.scrumr.config;
 
-import io.crowdcode.spring.scrumr.ScrumrApplication;
 import io.crowdcode.spring.scrumr.service.UserManagementService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import static org.junit.Assert.assertNotNull;
@@ -14,9 +13,8 @@ import static org.junit.Assert.assertNotNull;
  * @author Ingo Düppe (Crowdcode)
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(classes={ScrumrConfig.class})
-@ContextConfiguration(classes={ScrumrApplication.class})
-public class ScrumrConfigSpringTest {
+@SpringBootTest
+public class ScrumrConfigSpringBootTest {
 
     @Autowired
     private UserManagementService bean;
@@ -25,4 +23,5 @@ public class ScrumrConfigSpringTest {
     public void testBean() throws Exception {
         assertNotNull(bean);
     }
+
 }
