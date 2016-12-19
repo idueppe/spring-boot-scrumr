@@ -12,8 +12,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <groupId>io.crowdcode.spring.scrumr</groupId>
     <artifactId>scrumr-spring-parent</artifactId>
-    <groupId>io.crowdcrode.spring.scrumr</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
 
     <properties>

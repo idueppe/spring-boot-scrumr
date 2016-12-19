@@ -13,6 +13,7 @@
     <modules>
         <module>scrumr-parent</module>
         <module>scrumr-spring-parent</module>
+        <module>scrumr-service</module>
     </modules>
 
 
