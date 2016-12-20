@@ -1,6 +1,5 @@
 package io.crowdcode.spring.scrumr.config;
 
-import io.crowdcode.spring.scrumr.io.crowdcode.spring.scurmr.config.ScrumrConfig;
 import io.crowdcode.spring.scrumr.service.UserManagementService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
