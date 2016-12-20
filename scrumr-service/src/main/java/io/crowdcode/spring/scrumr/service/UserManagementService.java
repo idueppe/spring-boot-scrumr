@@ -10,7 +10,7 @@ import java.util.List;
 public interface UserManagementService {
     public String registerUser(String email, String name, String password, boolean isAdmin);
     public void removeUser(String email);
-    public void updateUser(String id, String name, String password, String email, boolean isAdmin);
+    public void updateUser(String name, String password, String email, boolean isAdmin);
     public List<User> getUserList();
-    public User getUserById(String email);
+    public User getUserByEmail(String email);
 }
